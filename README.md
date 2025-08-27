@@ -42,7 +42,7 @@ python-libraries-practice/<br>
 ## 💡 How to Use
 Clone this repository and explore the notebooks:
 ```bash
-git clone https://github.com/<your-username>/python-libraries-practice.git
+git clone https://github.com/vaishnavipatel2805/python-libraries-practice.git
 
 ✨ Author
 
