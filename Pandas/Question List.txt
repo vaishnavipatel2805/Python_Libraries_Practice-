@@ -1,0 +1,146 @@
+Q-1)Below questions are based on this data(ncr_ride_bookings):-
+1)Convert Date and Time to datetime
+
+2)Combine Date and Time into a single datetime column
+
+3)Extract temporal features
+
+4)Create binary flags from cancellation/incomplete columns
+
+5)Create a flag for missing ratings and booking values
+
+6)Define Target for Customer Cancellation
+
+7)Cancellation Rate by Vehicle Type
+
+8)Cancellation Rate by Hour
+
+9)Cancellation Rate by Day of Week
+
+10)Driver Rating vs Cancellation
+
+11)Top 10 Pickup Locations by Count
+
+12)Trend of Cancellations Over Time (Daily)
+
+Q-2)Below questions are based on this data(Weather Data):-
+1)Print Column Name & Unique Values
+
+2)Print Column Name & and how many values ​​are there in it
+
+3)find all the unique "Wind Speed" values in the dataset.
+
+4)find the number of times when the weather is exactly clear
+
+5)Find the number of times when the wind speed was exactly 4km/h
+
+6)what is the mean max min value of each column against each weather condition
+
+
+eQ-3)Blow questions are based on this data(Netflix Userbase):-
+1)Which subscription type contributes the highest share of total revenue, and how does this vary by country?
+
+2)What is the average customer lifetime value (CLV) across subscription types, considering join and last payment dates?
+
+3)Based on the gap between Join Date and Last Payment Date, what is the average retention period for each subscription type?
+
+4)Which country has the highest churn rate (shortest average subscription duration)?
+
+5)How does age distribution differ between Basic, Standard, and Premium subscribers?
+
+6)Is there a significant gender preference for certain subscription types or devices?
+
+7)Which device type contributes the highest total revenue globally?
+
+8)Is there a correlation between device used and age group?
+
+9)Which top 3 countries generate the most monthly revenue, and how is it split by subscription type?
+
+10)Does device preference vary significantly across regions?
+
+11)Group users by Join Year and measure average retention (in months). Which cohort has the best retention?
+
+12)For each cohort, how does the upgrade rate (Basic → Standard → Premium) look?
+
+13)If Netflix increased the Premium plan price by 10%, what would be the expected monthly revenue growth (assuming no churn)?
+
+14)Which users (by demographics or device) are most likely to upgrade to Premium based on their revenue and duration?
+
+15)What is the average subscription length (difference between join date and last payment date) across different subscription types?
+
+16)Which country has the highest churn rate (users with the shortest subscription duration)?
+
+17)How much total revenue has been generated from each device type (Smartphone, Laptop, Tablet, Smart TV)?
+
+18)Which age group (18–25, 26–35, 36–45, 46–60, 60+) spends the most on subscriptions?
+
+19)Is there a significant gender difference in subscription preference (Basic, Standard, Premium)?
+
+20)Which country has the highest proportion of Premium subscribers compared to Basic and Standard?
+
+21)What is the average monthly revenue trend across join dates (e.g., users who joined in 2021 vs 2022 vs 2023)?
+
+22)On average, how many months do users remain subscribed before their last payment? Does this vary by subscription type?
+
+23)Which join date cohorts (monthly or quarterly groups) show the highest retention?
+
+24)If Premium users are 10% more likely to renew than Standard, and Standard are 5% more likely than Basic, what is the projected revenue for next year?
+
+25)Based on device usage, can we predict the preferred subscription type (e.g., do Smart TV users lean more towards Premium)?
+
+26)Can we detect if older users (above 40) are more likely to use Laptops/Tablets, while younger users (below 30) prefer Smartphones/Smart TVs?
+
+
+salary[salary["OvertimePay"]>0.00].groupby("JobTitle")["OvertimePay"].sum().reset_index().sort_values(by = "OvertimePay", ascending = False).head(5)
+11)How does having dependents impact default risk, especially when Income is low?
+
+12)Which Loan Term (12, 24, 36, 48, 60 months) has the highest default rates?
+
+13)Does a higher Interest Rate directly correlate with higher default probability, or is it moderated by Credit Score?
+
+14)Segment customers into risk clusters (Low, Medium, High) using Income, LoanAmount, CreditScore, DTIratio, and analyze their default distribution.
+
+15)Can we identify a “safe borrower profile” (high probability of repayment) vs a “risky borrower profile”?
+
+16)If interest rates were reduced by 10%, which borrower groups would show the largest reduction in default rates?
+
+17)For high-income but low-credit-score borrowers, what’s the impact of co-signer presence on default reduction?
+
+Q-5)Below questions are based on this data(Salaries):-
+1)Which job titles rely most heavily on OvertimePay compared to BasePay?
+
+2)What is the proportion of Benefits to TotalPay across different departments/roles?
+
+3)Are there any employees where OtherPay exceeds BasePay, and why?
+
+4)Who are the top 10 highest-paid employees, and what proportion of their pay is overtime?
+
+5)Are there job titles where average BasePay is low, but TotalPay is high due to overtime or other pay?
+
+6)Identify outliers where Benefits or OvertimePay are disproportionately high compared to peers.
+
+7)Which job titles have the highest median TotalPay?
+
+8)Compare executive roles (e.g., Department Heads) vs operational roles (e.g., Firefighters, Police) in terms of TotalPay distribution.
+
+9)Does seniority in job title (e.g., Chief vs Assistant) consistently correlate with higher TotalPay?
+
+10)How does TotalPayBenefits vary across years (if multiple years exist)?
+
+11)Are there any systematic increases in BasePay or Benefits for certain departments?
+
+12)Calculate the pay gap ratio between the highest-paid and lowest-paid employees.
+
+13)Within the same job title, what is the pay variance (difference between max and min pay)?
+
+14)Which job titles show the largest internal salary disparity?
+
+15)Which departments are most dependent on overtime to boost salaries?
+
+16)Is there a correlation between low BasePay and higher reliance on OvertimePay?
+
+17)Can we predict TotalPay using BasePay, OvertimePay, and OtherPay (via regression)?
+
+18)If overtime payments were reduced by 20%, how much would TotalPay decrease for the top 5 earning job titles?
+
+19)What percentage of employees would fall below $100,000 TotalPay if Benefits were excluded?
