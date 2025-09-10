@@ -90,8 +90,27 @@ eQ-3)Blow questions are based on this data(Netflix Userbase):-
 
 26)Can we detect if older users (above 40) are more likely to use Laptops/Tablets, while younger users (below 30) prefer Smartphones/Smart TVs?
 
+Q-4)Below questions are based on this data(Loan_default):-
+1)How does Credit Score distribution differ between defaulted vs non-defaulted loans?
 
-salary[salary["OvertimePay"]>0.00].groupby("JobTitle")["OvertimePay"].sum().reset_index().sort_values(by = "OvertimePay", ascending = False).head(5)
+2)What is the probability of default for each Loan Purpose (Auto, Business, Home, Education, Other)?
+
+3)Is there a threshold of DTI Ratio (Debt-to-Income) above which defaults significantly increase?
+
+4)Does Marital Status or Employment Type significantly impact default rates?
+
+5)Which Education level borrowers are most likely to default, after adjusting for Income and Loan Amount?
+
+6)Are younger vs older borrowers (using proxy = MonthsEmployed) at higher risk?
+
+7)For borrowers with similar Income levels, does LoanAmount size affect default likelihood?
+
+8)Is there a relationship between NumCreditLines and Loan Default Rate? (i.e., does having more credit lines reduce/increase risk?)
+
+9)Does having a co-signer lower the probability of default?
+
+10)Are borrowers with an existing mortgage more or less likely to default?
+
 11)How does having dependents impact default risk, especially when Income is low?
 
 12)Which Loan Term (12, 24, 36, 48, 60 months) has the highest default rates?
