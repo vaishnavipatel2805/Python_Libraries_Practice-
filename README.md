@@ -13,10 +13,8 @@ It is part of my learning journey to strengthen my Python skills and explore com
 - [x] **NumPy** → Numerical computing and arrays  
 - [ ] **Pandas** → Data manipulation and analysis  
 - [ ] **Matplotlib** → Data visualization basics  
-- [ ] **Seaborn** → Statistical data visualization  
+- [ ] **Plotly** → Statistical data visualization  
 - [ ] **Scikit-learn** → Machine learning basics  
-- [ ] **NLTK / SpaCy** → Natural Language Processing  
-- [ ] **Others** → To be added as I progress  
 
 ---
 
@@ -24,9 +22,9 @@ It is part of my learning journey to strengthen my Python skills and explore com
 python-libraries-practice/<br>
 │<br>
 ├── numpy/ # NumPy practice notebooks<br>
-├── pandas/ # (To be added later)<br>
-├── matplotlib/ # (To be added later)<br>
-├── seaborn/ # (To be added later)<br>
+├── pandas/ # <br>
+├── matplotlib/ # <br>
+├── Plotly/ # <br>
 ├── scikit-learn/ # (To be added later)<br>
 └── README.md # Project documentation<br>
 
